@@ -1,0 +1,24 @@
+{
+  "name": "ansel",
+  "version": "1.0.0",
+  "description": "A plug and play camera",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/toobox/ansel.git"
+  },
+  "keywords": [
+    "camera",
+    "ansel",
+    "adams"
+  ],
+  "author": "Truman Purnell",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/toobox/ansel/issues"
+  },
+  "homepage": "https://github.com/toobox/ansel#readme"
+}
