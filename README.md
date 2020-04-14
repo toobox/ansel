@@ -9,11 +9,18 @@ npm install ansel
 It's straightforward enough to use, given coordinates in raster space (apologies for the jargon) we might first convert them to screen space:
 
 ```js
+import Camera from 'ansel'
+
+const camera = new Camera()
+const canvas = document.createElement('canvas')
+
+/* Assume we append it to the dom and attach listeners etc. **/
+
 rasterToScreen(x, y) {
     /** Convert Raster-Space Coordinates to Screen-Space */
     return [
-        2 * x / this.canvas.width - 1,
-        1 - 2 * y / this.canvas.height,
+        2 * x / canvas.width - 1,
+        1 - 2 * y / canvas.height,
     ]
 }
 
