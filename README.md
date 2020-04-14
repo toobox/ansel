@@ -3,7 +3,7 @@ A plug and play `Virtual Camera`
 This repository was spun off from [Claude](https://github.com/bb-labs/claude) as a standalone npm module. It's completely dependency free and thus can be dropped right into any graphics application.
 
 ```sh
-npm install big-box
+npm install ansel
 ```
 
 It's straightforward enough to use, given in raster space (apologies for the jargon) we might convert them to screen space:
