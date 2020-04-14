@@ -17,7 +17,7 @@ rasterToScreen(x, y) {
     ]
 }
 
-const screenSpaceCoordinates = rasterToScreen(100,100)
+const [x, y] = rasterToScreen(100,100)
 ```
 
 We can cast rays (unit vectors from our viewpoint):
