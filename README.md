@@ -6,7 +6,7 @@ This repository was spun off from [Claude](https://github.com/bb-labs/claude) as
 npm install ansel
 ```
 
-It's straightforward enough to use, given in raster space (apologies for the jargon) we might convert them to screen space:
+It's straightforward enough to use, given coordinates in raster space (apologies for the jargon) we might first convert them to screen space:
 
 ```js
 rasterToScreen(x, y) {
